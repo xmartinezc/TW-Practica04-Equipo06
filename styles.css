@@ -1,0 +1,38 @@
+
+/* = = = = = = EJERCICIOS DEL 6 AL 10 = = = = = = */
+.padre .subpadre .claseInterior{ /* Selector Descendente*/
+    background: thistle;
+    text-align: center;
+}
+
+.padre > .subpadre{ /* Selector Hijo*/
+    background: #e06fe0;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.padre{
+    margin-top: 25px;    
+}
+.brother1 ~ .brother2{ /* Selector Hermano*/
+    background: crimson;
+    color: azure;
+    padding: 10px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+*{ /* Selector Universal*/
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a[atribute~="igualacion-exacta"] { /* Selector de atributo igualación exacta */
+    padding: 5px 30px;
+    color: seagreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* = = = = = = = = = = = = = = = = = = = = = = = = */

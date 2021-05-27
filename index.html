@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 04</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- = = = = = = EJERCICIOS DEL 6 AL 10 = = = = = = -->
+    <div class="padre">
+        <div class="subpadre">
+            <h5>Soy una clase hija de "padre" (Selector hijo).</h5>
+            <div class="claseInterior">
+                <h5>Me encuentro dentro de Padre y Subpadre (Selector descendente).</h5>
+            </div>
+        </div>
+    </div>
+    <div class="padre">
+        <div class="brother1"><h3>Soy el hermano 1 (Seré usado como referencia).</h3></div>
+        <div class="brother2"><h3>Soy el hermano 2 (seré seleccionado por el selector hermano).</h3></div>
+    </div>    
+    <a href="#" atribute="igualacion-no-exacta">Soy un a/link (NO seré afectado por el selector).</a>
+    <br>
+    <a href="#" atribute="igualacion-exacta">Soy un a/link (Seré afectado por el selector de igualación exacta).</a>
+    <br>
+    <a href="#" atribute="igualacion-para-nada-exacta">Soy un a/link (NO seré afectado por el selector).</a>
+    <br>
+    <a href="#">Soy un a/link (NO seré afectado por el selector).</a>
+    <!-- = = = = = = = = = = = = = = = = = = = = = = = =  -->
+</body>
+</html>
