@@ -1,3 +1,50 @@
+/* = = = = = = EJERCICIOS DEL 1 AL 5 = = = = = = */
+#contenido{
+    font: italic 1.2em "Fira Sans", serif;
+    background-color:rgb(206, 220, 224);
+}
+
+h1{
+    border: 5px solid #b074d8;
+    border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 100px;
+    font-size: 200%;
+    font-variant: small-caps slashed-zero;
+    text-decoration: underline dotted white;
+    text-align: center;
+}
+
+.caja-amarilla#nota{
+    background-color: #cffd9a;
+    border: 3px solid #94f553;
+    font-family: cursive;
+    font-variant: common-ligatures tabular-nums;
+    color: blue;
+}
+
+.caja-amarilla, .caja-roja, h1{
+    font-style: italic;
+    font-family:monospace;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    overflow: hidden;
+    opacity: 80%;
+    padding: 20px;
+}
+
+.caja-amarilla {
+
+    background-color: #fdf79a;
+    border: 3px solid #f5f253;
+}
+
+.caja-roja {
+    background-color: #f18989;
+    border: 3px solid #ff0000;
+}
+/* = = = = = = = = = = = = = = = = = = = = = = = = */
 
 /* = = = = = = EJERCICIOS DEL 6 AL 10 = = = = = = */
 .padre .subpadre .claseInterior{ /* Selector Descendente*/
